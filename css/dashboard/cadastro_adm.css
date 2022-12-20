@@ -1,0 +1,135 @@
+.adm-registro {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* margin-top: 10px;*/
+}
+.adm-registro .recentOrders {
+  position: relative;
+  display: grid;
+  min-height: 350px;
+  background: var(--white);
+  padding: 20px 12px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.cardHeaderAdm {
+  display: flex;
+  place-content: center;
+  margin-bottom: 20px;
+}
+.cardHeaderAdm h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.adm-formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  font-size: 1.25rem;
+  place-items: center;
+  padding: 20px;
+}
+.adm-formulario input {
+  width: 300px;
+  height: 70px;
+}
+.adm-formulario #submit {
+  width: 100px;
+  height: 50px;
+}
+.ad-formulario input:focus {
+  outline: none;
+  border-color: var(--blue);
+  background: #fff;
+  box-shadow: 0 0 0 2px var(--blue3);
+  color: #000;
+}
+.ad-formulario select:focus {
+  outline: none;
+  border-color: var(--blue);
+  background: #fff;
+  box-shadow: 0 0 0 2px var(--blue3);
+  color: #000;
+}
+.ad-formulario div {
+  margin-bottom: 20px;
+}
+.ad-formulario input {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 255, 0.081);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+.ad-formulario select {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.btn3 {
+  grid-column: 1;
+}
+@media (max-width: 1500px) {
+  .adm-formulario input {
+    width: 300px;
+    height: 70px;
+  }
+}
+@media (max-width: 1300px) {
+  .adm-formulario {
+    display: grid;
+
+    gap: 12px;
+    align-items: start;
+  }
+}
+
+@media (max-width: 1200px) {
+  .adm-formulario {
+    display: grid;
+    gap: 12px;
+  }
+  .adm-formulario input {
+    width: 300px;
+    height: 70px;
+  }
+  /*novo-index*/
+}
+
+@media (max-width: 700px) {
+  .adm-formulario {
+    display: grid;
+    gap: 12px;
+    place-items: center;
+  }
+  .adm-formulario input {
+    width: 200px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 500px) {
+  .adm-formulario {
+    display: grid;
+    gap: 12px;
+    place-items: center;
+  }
+  .adm-formulario input {
+    width: 200px;
+    height: 70px;
+  }
+  .adm-formulario #submit {
+    width: 150px;
+    height: 50px;
+    place-self: center;
+  }
+
+  .btn3 {
+    grid-column: 1;
+  }
+}

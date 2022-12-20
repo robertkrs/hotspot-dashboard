@@ -1,0 +1,149 @@
+.details-online {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  /* margin-top: 10px;*/
+}
+.details-online .recentOrders {
+  position: relative;
+  display: grid;
+  min-height: fit-content;
+  background: var(--white);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cardHeader h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.details-online table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.details-online table thead td {
+  font-weight: 600;
+  text-align: start;
+}
+.details-online .recentOrders table tr {
+  color: var(--black1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.details-online .recentOrders table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.details-online .recentOrders table tbody tr:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+.details-online .recentOrders table tbody tr:hover ion-icon {
+  color: var(--white);
+}
+.details-online .recentOrders table tr td {
+  padding: 10px;
+}
+.details-online .recentOrders table tr td:last-child {
+  text-align: start;
+}
+.details-online .recentOrders table tr td:nth-child(2) {
+  text-align: start;
+}
+.details-online .recentOrders table tr td:nth-child(3) {
+  text-align: start;
+}
+.details-online .recentOrders table tr td:nth-child(4) {
+  text-align: start;
+}
+.details-online .recentOrders table tr td:nth-child(5) {
+  text-align: start;
+}
+.details-online .recentOrders table tr td:nth-child(6) {
+  text-align: start;
+}
+.details-online .recentOrders table tr td:nth-child(7) {
+  text-align: start;
+}
+.details-online .recentOrders ion-icon {
+  font-size: 1.2em;
+  color: var(--blue);
+}
+.pisca {
+  color: rgb(26, 255, 0);
+  animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: rgb(26, 255, 0);
+  }
+  5% {
+    color: rgb(26, 255, 0);
+  }
+  10% {
+    color: var(--black1);
+  }
+  15% {
+    color: var(--black1);
+  }
+  20% {
+    color: rgb(26, 255, 0);
+  }
+  25% {
+    color: rgb(26, 255, 0);
+  }
+  30% {
+    color: var(--black1);
+  }
+  35% {
+    color: var(--black1);
+  }
+  40% {
+    color: rgb(26, 255, 0);
+  }
+  45% {
+    color: rgb(26, 255, 0);
+  }
+  50% {
+    color: var(--black1);
+  }
+  55% {
+    color: var(--black1);
+  }
+  60% {
+    color: rgb(26, 255, 0);
+  }
+  65% {
+    color: rgb(26, 255, 0);
+  }
+  70% {
+    color: var(--black1);
+  }
+  75% {
+    color: var(--black1);
+  }
+  80% {
+    color: rgb(26, 255, 0);
+  }
+  85% {
+    color: rgb(26, 255, 0);
+  }
+  90% {
+    color: var(--black1);
+  }
+  95% {
+    color: var(--black1);
+  }
+  100% {
+  }
+}

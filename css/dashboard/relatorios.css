@@ -1,0 +1,209 @@
+.details-relatorios {
+  position: relative;
+  width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  /* margin-top: 10px;*/
+}
+.details-relatorios .recentOrders {
+  position: relative;
+  display: grid;
+  height: fit-content;
+  background: var(--white);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.details-relatorios ul {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.details-relatorios ul li {
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  position: relative;
+}
+.details-relatorios ul li::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid var(--black1);
+  border-radius: 8px 0 0 8px;
+  height: 8px;
+  width: 8px;
+  margin-left: 8px;
+  transition: 0.5s;
+  position: absolute;
+  left: -8px;
+}
+
+.details-relatorios .recentOrders ul li:hover::before {
+  border-color: var(--white);
+  width: 16px;
+  border-radius: 8px 8px 8px 8px;
+}
+.details-relatorios ul a {
+  text-decoration: none;
+}
+.details-relatorios .recentOrders ul li {
+  color: var(--black1);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.details-relatorios .recentOrders ul li ion-icon {
+  color: var(--blue);
+}
+.details-relatorios .recentOrders ul li:hover ion-icon {
+  color: var(--white);
+}
+.details-relatorios .recentOrders ul li:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.details-relatorios .recentOrders ul li {
+  text-align: start;
+}
+.details-relatorios .recentOrders ul .relatorio-1:hover {
+  color: initial;
+  background: initial;
+}
+.details-relatorios ul .relatorio-1::before {
+  display: none;
+}
+.relatorio-1 {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 8px;
+}
+.relatorio-1 form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  place-items: start;
+}
+.relatorio-1 form div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  place-items: center;
+  gap: 8px;
+}
+.relatorio-1 label {
+  width: 80px;
+  color: var(--black1);
+}
+.relatorio-1 input {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.relatorio-1 input:focus {
+  outline: none;
+  border-color: var(--blue);
+  background: #fff;
+  box-shadow: 0 0 0 2px var(--blue3);
+  color: #000;
+}
+.relatorio-1 #submit {
+  padding: 0;
+  grid-column: 1;
+  place-self: start;
+  width: 100px;
+  margin-top: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+.relatorio-1 .form-relatorio-2 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#relatorio-1 {
+  display: none;
+}
+#relatorio-2 {
+  display: none;
+}
+#relatorio-3 {
+  display: none;
+}
+@media (max-width: 1550px) {
+  .details-relatorios {
+    max-width: 1000px;
+  }
+  .relatorio-1 .form-relatorio-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1400px) {
+  .details-relatorios {
+    max-width: 800px;
+  }
+  .relatorio-1 .form-relatorio-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1200px) {
+  .details-relatorios {
+    max-width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .relatorio-1 #submit {
+    width: 120px;
+    height: 40px;
+    font-size: 0.8;
+    place-self: center;
+  }
+  .relatorio-1 .form-relatorio-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 750px) {
+  .relatorio-1 .form-relatorio-2 {
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+  .relatorio-1 .form-relatorio-2 input {
+    width: 140px;
+  }
+}
+@media (max-width: 600px) {
+  .relatorio-1 .form-relatorio-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .relatorio-1 label {
+    display: none;
+  }
+  .relatorio-1 form {
+    place-items: center;
+  }
+  .relatorio-1 input {
+    width: 140px;
+  }
+  .relatorio-1 #submit {
+    width: 80px;
+    font-size: 0.8;
+    place-self: center;
+  }
+  .relatorio-1 .form-relatorio-2 {
+    grid-template-columns: 1fr;
+  }
+  .relatorio-1 .form-relatorio-2 input {
+    width: 140px;
+  }
+}

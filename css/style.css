@@ -1,0 +1,22 @@
+/*Global*/
+@import "/css/global/global.css";
+
+/*Componentes*/
+@import "/css/componentes/estilos.css";
+
+/*Home*/
+@import "/css/home/administracao.css";
+@import "/css/home/termos.css";
+
+/*Registrar*/
+@import "/css/registrar/registrar.css";
+
+/*Dashboard*/
+@import "/css/dashboard/dashboard.css";
+@import "/css/dashboard/usuarios.css";
+@import "/css/dashboard/editar.css";
+@import "/css/dashboard/minha_conta.css";
+@import "/css/dashboard/onlines.css";
+@import "/css/dashboard/cadastro_adm.css";
+@import "/css/dashboard/navigation.css";
+@import "/css/dashboard/relatorios.css";

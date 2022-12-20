@@ -1,0 +1,61 @@
+.termos {
+  width: 100ch;
+}
+.termos p {
+  margin-bottom: 20px;
+}
+.termos a {
+  color: var(--blue);
+  font-weight: 600;
+}
+.termos a:hover {
+  color: var(--black2);
+}
+.termos-finalidades {
+  padding-left: 32px;
+  margin-bottom: 20px;
+}
+.termos-finalidades {
+  list-style: none;
+}
+.termos-finalidades li {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+.termos-finalidades li:before {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px dashed var(--black1);
+  background: var(--white);
+  margin-right: 8px;
+}
+.termos-finalidades li:last-child {
+  margin-bottom: 0;
+}
+.termos-finalidades span {
+  margin-left: 2px;
+  font-weight: 600;
+}
+
+.autenticacao-termos {
+  place-self: start;
+}
+.autenticacao-termos h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.autenticacao-termos h2:before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 12px;
+  border: 1px solid var(--black1);
+
+  border-radius: 7px 0 7px 0;
+  margin-right: 5px;
+}

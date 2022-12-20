@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotspot - Signet</title>
+  <meta name="description" content="Hotspot Signet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/global/global.css">
+  <link rel="stylesheet" href="./css/componentes/estilos.css">
+  <link rel="stylesheet" href="./css/home/autenticacao.css">
+  <link rel="stylesheet" href="./css/registrar/registrar.css">
+</head>
+
+<body>
+  <main class="registrar-bg">
+    <div class="registrar container">
+      <div class="registrar-logo">
+        <a href="./"><img src="./img/logo/signet-logo.svg" width="190" height="131" alt="logo-signet"></a>
+      </div>
+
+      <form action="registro.php" method="POST" class="registrar-formulario formulario">
+        <div class="registrar-titulo">
+          <h1>Cadastre-se</h1>
+        </div>
+        <div>
+          <input type="text" name="nome" id="nome" placeholder="nome completo">
+        </div>
+        <div>
+          <input type="text" name="cpf" id="cpf" placeholder="cpf">
+        </div>
+        <div>
+          <input type="date" name="data" id="data" min="1960-01-01" max="2002-01-02">
+        </div>
+        <div>
+          <input type="tel" name="telefone" id="telefone" maxlength="11" placeholder="celular">
+        </div>
+        <div>
+          <input type="text" name="estado" id="estado" placeholder="estado">
+        </div>
+        <div>
+          <input type="text" name="cep" id="cep" placeholder="cep">
+        </div>
+        <div>
+          <input type="text" name="cidade" id="cidade" placeholder="cidade">
+        </div>
+        <div>
+          <input type="text" name="bairro" id="bairro" placeholder="bairro">
+        </div>
+        <div>
+          <input type="text" name="rua" id="rua" placeholder="rua">
+        </div>
+        <div>
+          <input type="text" name="numero" id="numero" placeholder="numero residencial">
+        </div>
+        <div>
+          <input type="email" name="email" id="email" placeholder="email">
+        </div>
+        <div>
+          <input type="password" name="senha" id="senha" placeholder="nova senha">
+        </div>
+        <input type="submit" name="submit" id="submit" value="Enviar" class="btn">
+      </form>
+
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

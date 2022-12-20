@@ -1,0 +1,47 @@
+@import url("https://fonts.googleleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+.btn {
+  padding: 8px 24px;
+  border-radius: 5px;
+  color: var(--white);
+  font: 600 1rem/1.5 "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: var(--blue);
+  border: 1px solid var(--white);
+}
+.btn:hover {
+  background: var(--blue2);
+  color: var(--grey);
+  border-color: var(--white);
+}
+.btn3 {
+  padding: 8px 24px;
+  border-radius: 5px;
+  color: var(--white);
+  font: 600 1rem/1.5 "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: var(--blue);
+}
+.btn3:hover {
+  background: var(--blue2);
+  color: var(--grey);
+  border: 1px solid var(--white);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.formulario div {
+  margin-bottom: 20px;
+}
+.formulario input {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid var(--blue);
+}
+.formulario select {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid var(--blue);
+}

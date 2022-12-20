@@ -1,0 +1,131 @@
+.details-users {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  /* margin-top: 10px;*/
+}
+.details-users .recentOrders {
+  position: relative;
+  display: grid;
+  min-height: fit-content;
+  background: var(--white);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cardHeader h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.details-users table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.details-users table thead td {
+  font-weight: 600;
+}
+.details-users .recentOrders table tr {
+  color: var(--black1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.details-users .recentOrders table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.details-users .recentOrders table tbody tr:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+.details-users .recentOrders table tbody tr:hover ion-icon {
+  color: var(--white);
+}
+.details-users .recentOrders table tr td {
+  padding: 10px;
+}
+.details-users .recentOrders table tr td:last-child {
+  text-align: end;
+}
+.details-users .recentOrders table tr td:nth-child(2) {
+  text-align: end;
+}
+.details-users .recentOrders table tr td:nth-child(3) {
+  text-align: end;
+}
+.details-users .recentOrders table tr td:nth-child(4) {
+  text-align: end;
+}
+.details-users .recentOrders table tr td:nth-child(5) {
+  text-align: end;
+}
+.details-users .recentOrders table tr td:nth-child(6) {
+  text-align: end;
+}
+.details-users .recentOrders table tr td:nth-child(7) {
+  text-align: end;
+}
+.details-users .recentOrders ion-icon {
+  font-size: 1.2em;
+  color: var(--blue);
+}
+.cadastrar-plus {
+  display: inline-block;
+  max-width: max-content;
+  justify-items: center;
+  background: var(--blue);
+  padding: 4px;
+  border-radius: 7px;
+  color: blue;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.3);
+}
+.cadastrar-plus a {
+  display: flex;
+  position: relative;
+  width: fit-content;
+}
+
+.cadastrar-plus a ion-icon {
+  color: var(--white);
+  font-size: 2em;
+  place-self: center;
+}
+.cadastrar-plus:hover {
+  background: var(--white);
+}
+.cadastrar-plus:hover a ion-icon {
+  color: var(--blue);
+}
+.paginas {
+  display: flex;
+  margin-top: 12px;
+  gap: 20px;
+  place-content: center;
+  color: var(--blue);
+  font-weight: 600;
+}
+.paginas a {
+  color: var(--black1);
+  font-weight: 600;
+  text-decoration: none;
+}
+.paginas a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: var(--blue);
+  transition: 0.5s;
+}
+
+.paginas a:hover::after {
+  width: 100%;
+}

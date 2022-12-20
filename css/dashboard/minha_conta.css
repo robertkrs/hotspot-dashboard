@@ -1,0 +1,146 @@
+.details-minha-conta {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  /* margin-top: 10px;*/
+}
+.details-minha-conta .recentOrders {
+  position: relative;
+  display: grid;
+  height: fit-content;
+  background: var(--white);
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cardHeader h2 {
+  font-weight: 600;
+  color: var(--blue);
+}
+.details-minha-conta table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.details-minha-conta table thead td {
+  font-weight: 600;
+}
+.details-minha-conta .recentOrders table tr {
+  color: var(--black1);
+  border-bottom: var(--border1);
+}
+.details-minha-conta .recentOrders table tbody tr:last-child {
+  border-bottom: none;
+}
+.details-minha-conta .recentOrders table tbody tr ion-icon {
+  color: var(--blue);
+}
+.details-minha-conta .recentOrders table tbody tr:hover ion-icon {
+  color: var(--white);
+}
+.details-minha-conta .recentOrders table tbody tr:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.details-minha-conta .recentOrders table tr td {
+  padding: 10px;
+}
+.details-minha-conta .recentOrders table tr td:last-child {
+  text-align: end;
+}
+.details-minha-conta .recentOrders table tr td:nth-child(2) {
+  text-align: start;
+}
+.details-minha-conta .recentOrders table tr td:nth-child(3) {
+  text-align: end;
+}
+.details-minha-conta.nas .recentOrders table tr td:nth-child(3) {
+  text-align: center;
+}
+.logado {
+  position: relative;
+  display: grid;
+  min-height: fit-content;
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  background: var(--white);
+}
+
+.logado table tr {
+  color: var(--black1);
+}
+.logado table tr:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.logado table tr td {
+  padding: 12px 10px;
+  font-size: 1.8rem;
+}
+
+.logado table tr td h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+.logado table tr td h4 span {
+  font-size: 14px;
+  color: var(--black2);
+}
+.logado table tr:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+.logado table tr:hover td h4 span {
+  color: var(--white);
+}
+
+#minha-conta-table ion-icon {
+  font-size: 1.3em;
+}
+
+@media (max-width: 700px) {
+  .minha-conta-g {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .details-minha-conta {
+    grid-template-columns: 1fr;
+  }
+  .logado {
+    grid-row: 1;
+  }
+  .logado tr td {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  #minha-conta-table ion-icon {
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 400px) {
+  .minha-conta_l,
+  .minha-conta_s {
+    font-size: 1.2rem;
+    place-self: center;
+  }
+  .logado tr td {
+    font-size: 1rem;
+  }
+  #minha-conta-table ion-icon {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(#3399ff, #110022) no-repeat;
+  background-size: cover;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  place-content: center;
+  padding: 60px 20px;
+  gap: 20px;
+}
+.header-imagem{
+  grid-column: 1/-1;
+  place-self: center;
+}
+.header-menu{
+  place-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+.header-menu ul li{
+  padding: 8px;
+ /* background: linear-gradient(#3399ff, #0034a3) no-repeat;*/
+  border-radius: 8px 0 8px 0;
+  border: 1px solid #c5c5c5;
+}
+.header-menu ul li:hover{
+  background: linear-gradient(#2a4866, #0034a3) no-repeat;
+  border-color: #225180;
+}
+.header-menu ul a{
+  text-decoration: none;
+  color: #c5c5c5;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.autenticacao {
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 20px;
+}
+
+.autenticacao-formulario div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.autenticacao-titulo h2{
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 1.2rem;
+}
+.autenticacao-titulo h2:before{
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 14px;
+  background: linear-gradient(#3399ff, #110022) no-repeat;
+  border-radius: 5px 0 5px 0;
+  margin-right: 5px;
+}
+
+.autenticacao-formulario label {
+  grid-column: 2;
+  grid-row: 1;
+  place-self: center;
+}
+.autenticacao-formulario input {
+  grid-column: 1/-1;
+  padding: 8px 16px;
+  border-radius: 8px 0 8px 0;
+  border: 1px solid #0000FF;
+}
+.autenticacao-formulario .btn {
+  grid-column: span 2;
+  border: none;
+}
+
+.autenticacao-link a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+.autenticacao-link a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: rgb(79, 103, 236);
+  transition: 0.5s;
+}
+
+.autenticacao-link a:hover::after {
+  width: 100%;
+}
+
+@media (max-width:600px){
+  .autenticacao-formulario input{
+    grid-column: 1/-1;
+  }
+  
+  
+}
