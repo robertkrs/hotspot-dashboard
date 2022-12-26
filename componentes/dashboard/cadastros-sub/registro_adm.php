@@ -2,13 +2,13 @@
    session_start();
   if(isset($_POST['submit'])){
     include_once('../../../componentes/config.php');
-    $nivel = 3;
+    /*$nivel = 3;
     $login = $_SESSION['login'];
     $sql7 = "SELECT * FROM administracao INNER JOIN role_permissions ON administracao.role_id = role_permissions.role_id where perm_id = '$nivel' and login_adm = '$login'";
     $result9 = $conexao->query($sql7);
 
     if(mysqli_num_rows($result9) >= 1){
-    
+    */
     $email = $_POST['email'];
     $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
     
@@ -36,10 +36,10 @@
 
      
     }
-  }else{
+ /* }else{
     header("location:./../dashboard.php");
 
-  }
+  }*/
 }
   
 ?>

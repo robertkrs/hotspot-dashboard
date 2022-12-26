@@ -91,7 +91,7 @@
               <ion-icon name="wifi-outline"></ion-icon>
             </span>
             <span class="navigation-titulo">
-              <img src="../../img/logo/KRS-logo2.svg" alt="">
+              <img src="../../img/logo/KRSv3.svg" alt="">
             </span>
           </a>
         </li>
