@@ -28,7 +28,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro | Signet</title>
+  <title>Cadastro | KRS</title>
   <link rel="stylesheet" href="./css/style.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
 
@@ -44,13 +44,13 @@
               <ion-icon name="wifi-outline"></ion-icon>
             </span>
             <span class="navigation-titulo">
-              <img src="../../../img/logo/signet-logo2.svg" alt="">
+              <img src="../../../img/logo/KRS-logo2.svg" alt="">
             </span>
           </a>
         </li>
 
         <li>
-          <a href="http://hotspot.signetx.com.br">
+          <a href="http://hotspot.KRSx.com.br">
             <span class="navigation-icone">
               <ion-icon name="log-out-outline"></ion-icon>
             </span>

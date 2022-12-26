@@ -20,12 +20,12 @@ include_once('../../../componentes/config.php');
         $result3 = $conexao->query($token);
 
       }
-      header("location:http://hotspot.signetx.com.br");
+      header("location:http://hotspot.KRSx.com.br");
 
      
     }else{
       print_r("ERRO");
-     // header("location:http://hotspot.signetx.com.br");
+     // header("location:http://hotspot.KRSx.com.br");
     }
   }
 

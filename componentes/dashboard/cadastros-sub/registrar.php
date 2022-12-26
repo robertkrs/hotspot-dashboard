@@ -44,8 +44,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro | Signet</title>
-  <meta name="description" content="Hotspot Signet">
+  <title>Cadastro | KRS</title>
+  <meta name="description" content="Hotspot KRS">
   <link rel="stylesheet" href="../../../css/style.css">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
   
@@ -62,7 +62,7 @@
               <ion-icon name="wifi-outline"></ion-icon>
             </span>
             <span class="navigation-titulo">
-              <img src="../../../img/logo/signet-logo2.svg" alt="">
+              <img src="../../../img/logo/KRS-logo2.svg" alt="">
             </span>
           </a>
         </li>

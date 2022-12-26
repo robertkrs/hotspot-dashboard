@@ -28,8 +28,8 @@ include_once('../../../componentes/config.php');
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ADM | Signet</title>
-  <meta name="description" content="Hotspot Signet">
+  <title>ADM | KRS</title>
+  <meta name="description" content="Hotspot KRS">
   <link rel="stylesheet" href="../../../css/style.css">
   
 
@@ -38,7 +38,7 @@ include_once('../../../componentes/config.php');
 <body>
   <header class="header">
     <div class="header-imagem">
-      <img src="../../../img/logo/signet-logo.svg" width="190" height="131" alt="logo-signet">
+      <img src="../../../img/logo/KRSv2.svg" width="150" height="131" alt="logo-KRS">
     </div>
     <nav class="header-menu">
 

@@ -46,7 +46,7 @@
         }
       }
 
-      header("location:http://hotspot.signetx.com.br");
+      header("location:http://hotspot.KRSx.com.br");
     }  
 	 
     

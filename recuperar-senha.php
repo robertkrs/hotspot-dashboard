@@ -18,7 +18,7 @@ include_once('./testlogin.php');
     
       $novasenha = substr(md5(time()), 0, 6);
 
-      $enviado = mail($login, "Seu codigo", "Seu codigo: ".$novasenha, "FROM: contato3@signets.com.br") ;
+      $enviado = mail($login, "Seu codigo", "Seu codigo: ".$novasenha, "FROM: contato3@KRSs.com.br") ;
     
       if($enviado){
         $sql_code = "UPDATE administracao SET token_adm = '$novasenha' WHERE login_adm = '$login'";
@@ -50,8 +50,8 @@ include_once('./testlogin.php');
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recuperar a Senha | Signet</title>
-  <meta name="description" content="Hotspot Signet">
+  <title>Recuperar a Senha | KRS</title>
+  <meta name="description" content="Hotspot KRS">
   <link rel="stylesheet" href="./css/style.css">
   
 
@@ -60,7 +60,7 @@ include_once('./testlogin.php');
 <body>
   <header class="header">
     <div class="header-imagem">
-      <a href="./"><img src="./img/logo/signet-logo.svg" width="190" height="131" alt="logo-signet"></a>
+      <a href="./"><img src="./img/logo/KRSv2.svg" width="150" height="131" alt="logo-KRS"></a>
     </div>
     <nav class="header-menu">
 
